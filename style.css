@@ -43,6 +43,28 @@
     margin: 0%;
     
 }
+.rotar7 
+    { 
+      /* -webkit-transform: rotate(-30deg); 
+      -moz-transform: rotate(-30deg); 
+      -ms-transform: rotate(-30deg); 
+      -o-transform: rotate(-30deg);  */
+      transform: rotate(-13deg); 
+      
+      /* -webkit-transform-origin: 50% 50%; 
+      -moz-transform-origin: 50% 50%; 
+      -ms-transform-origin: 50% 50%; 
+      -o-transform-origin: 50% 50%;  */
+      transform-origin: 0% 0%;
+      font-family: 'Raleway', sans-serif;
+      font-weight: 300;
+      font-size: 20px;  
+      position: relative;
+      text-align: justify;
+      padding-left: 15px;
+      padding-right: 15px;
+      /* top: 100px;  */
+    }
 
 
 
