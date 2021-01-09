@@ -33,6 +33,8 @@
     font-weight: 200;
     font-size: 20px;
     line-height: 5em;
+    padding-left: 10px;
+    padding-right: 10px;
     text-align: center;
     letter-spacing: 0.25em;
 }
@@ -43,7 +45,7 @@
     margin: 0%;
     
 }
-.rotar7 
+.rotar_13 
     { 
       /* -webkit-transform: rotate(-30deg); 
       -moz-transform: rotate(-30deg); 
@@ -57,14 +59,47 @@
       -o-transform-origin: 50% 50%;  */
       transform-origin: 0% 0%;
       font-family: 'Raleway', sans-serif;
-      font-weight: 300;
-      font-size: 20px;  
+      font-weight: 300; 
       position: relative;
-      text-align: justify;
+      text-align:justify, center;
       padding-left: 15px;
-      padding-right: 15px;
+      /* padding-right: 17px; */
       /* top: 100px;  */
     }
+
+    /* small mobile */
+    @media only screen and (max-width:347px) {
+        .my_rol{
+            font-size:18px;
+        }
+        .rotar_13{
+            font-size:18px;
+            background-color: chartreuse;
+        }
+    }
+
+    /* medium mobile */
+    @media only screen and (max-width:380px) {
+        .rotar_13{
+            font-size:20px;
+            background-color: rgb(255, 0, 149);
+        }
+    }
+
+    /* medium mobile */
+    @media only screen and (max-width:400px) {
+        .rotar_13{
+            font-size:22px;
+        }
+    }
+
+    /* big mobile */
+    @media only screen and (min-width:401px) {
+        .rotar_13{
+            font-size:23px;
+        }
+    }
+
 
 
 
