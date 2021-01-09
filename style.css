@@ -21,11 +21,12 @@
     width: 60%;
 }
 .second_header{
-    background-color: black;
+    /* background-color: black; */
     width: 100%;
 }
 
 .my_rol{
+    background-color: black;
     color: white;
     font-family: 'Oswald', sans-serif;
     font-style: normal;
@@ -34,9 +35,15 @@
     line-height: 5em;
     text-align: center;
     letter-spacing: 0.25em;
-
-
 }
+
+.polygon{
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+    
+}
+
 
 
 
