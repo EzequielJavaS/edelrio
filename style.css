@@ -192,8 +192,10 @@
 
 .menuppal{
     background-color: rgb(0, 0, 0);
+    opacity: 0.8;
     bottom: 0;
-    height: 50%;
+    height: min-content;
+    border-radius: 30px;
     right: 0;
     overflow-y: scroll;
     position: fixed;
@@ -221,10 +223,11 @@
 }
 .menuppal ul li a{
     text-decoration:none;
+    opacity: 1;
     color:rgb(255, 255, 255);
     font-family: 'Raleway', sans-serif;
-    font-size:18px;
-    font-weight: 00; 
+    font-size:24px;
+    font-weight: 500; 
 }
 .menuppal ul li a:hover{
   text-decoration:none;
