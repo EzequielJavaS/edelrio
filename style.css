@@ -40,12 +40,20 @@
     text-align: center;
     letter-spacing: 0.25em;
 }
+.icons{
+    display: flex;
+    justify-content: space-around;
+    margin: 5px 5px;
+}
+
+.mgin-top-auto{
+    margin-top: auto;
+}
 
 .present_header{
     transform:skewY(-13deg);
     transform-origin: 0% 0%;
     background-color: #ffffff;
-    
 }
 
 .present_text 
@@ -59,15 +67,6 @@
       
     }
 
-.css{
-    margin: auto 0px 10px 5px;
-}
-.sass{
-    margin: auto 0px 20px 2px;
-}
-.boot{
-    margin: auto 0px 30px 2px;
-}
 
 .foto{
     display: block;
