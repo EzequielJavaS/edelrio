@@ -59,10 +59,20 @@
       
     }
 
+.css{
+    margin: auto 0px 10px 5px;
+}
+.sass{
+    margin: auto 0px 20px 2px;
+}
+.boot{
+    margin: auto 0px 30px 2px;
+}
+
 .foto{
     display: block;
     margin: auto;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
     filter: drop-shadow(0px 0px 30px #ffffff);
 }
 
