@@ -1,0 +1,12 @@
+// selector
+let menu = document.querySelector(".hamburger");
+
+// method
+const toggleMenu = (event) =>{
+  menu.classList.toggle('is-active');
+  document.querySelector( ".menuppal" ).classList.toggle("is_active");
+  event.preventDefault();
+}
+
+// event
+menu.addEventListener('click', toggleMenu, false);
