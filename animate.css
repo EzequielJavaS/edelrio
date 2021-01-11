@@ -1,0 +1,47 @@
+
+
+.bounceInDown{
+    animation: bounceInDown;
+    animation-duration: 3s;
+}
+.bounceInDown2{
+    animation: bounceInDown;
+    animation-duration: 2s;
+}
+
+.bounceInLeft{
+    animation: bounceInLeft;
+    animation-duration: 3s;
+}
+
+.bounceInUp2{
+    animation: bounceInUp;
+    animation-duration: 2s;
+}
+
+.bounceInUp{
+    animation: bounceInUp;
+    animation-duration: 3s;
+}
+
+.bounceInRight{
+    animation: bounceInRight;
+    animation-duration: 3s;
+}
+
+.fadeInTopLeft{
+    animation: fadeInTopLeft;
+    animation-duration: 3s;
+}
+
+.fadeInTopRight{
+    animation: fadeInTopRight;
+    animation-duration: 1s;
+}
+
+.rotateInUpRight{
+    animation: rotateInUpRight;
+    animation-duration: 3s;
+}
+
+
