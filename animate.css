@@ -24,11 +24,6 @@
     animation-duration: 3s;
 }
 
-.bounceInRight{
-    animation: bounceInRight;
-    animation-duration: 3s;
-}
-
 .fadeInTopLeft{
     animation: fadeInTopLeft;
     animation-duration: 3s;
