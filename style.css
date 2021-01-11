@@ -55,6 +55,26 @@
     transform-origin: 0% 0%;
 }
 
+.fadeInTopLeft{
+    animation: fadeInTopLeft;
+    animation-duration: 1s;
+}
+
+.bounceInDown{
+    animation: bounceInDown;
+    animation-duration: 3s;
+}
+.bounceInDown2{
+    animation: bounceInDown;
+    animation-duration: 2s;
+}
+
+
+
+
+
+
+
 .present_header{
     transform:skewY(-13deg);
     transform-origin: 0% 0%;
