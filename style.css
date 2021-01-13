@@ -3,10 +3,17 @@
     margin: 0px;
     padding: 0px;
 }
+html {
+    scroll-behavior: smooth;
+    -webkit-scroll-behavior: smooth;
+    -moz-scroll-behavior: smooth;
+    -ms-scroll-behavior: smooth;
+}
 
 .prueba{
     font-size: 30px;
 }
+
 
 .container{
     width: 100%;
