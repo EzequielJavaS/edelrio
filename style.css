@@ -95,8 +95,9 @@ html {
 h3{
     font-family: 'Raleway', sans-serif;
     font-size:21px;
-    font-weight: 700; 
-    color: grey;
+    font-weight: 700;
+    text-decoration: underline; 
+    color: black;
     position: relative;
     text-align:justify;
     padding: 5px 30px 5px 20px;
@@ -107,9 +108,10 @@ h3{
     font-size:16px;
     font-weight: 400;
     line-height: 25px;
+    color: grey;
     position: relative;
     text-align: left;
-    padding: 5px 30px 5px 20px;
+    padding: 5px 30px 10px 20px;
 }    
 
 /* small mobile */
