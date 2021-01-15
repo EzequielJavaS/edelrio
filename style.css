@@ -35,8 +35,13 @@ html {
 
 }
 .contact{
-    color: white;
-    padding: 15px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    font-weight:500;
+    color: rgb(192, 192, 192);;
+    margin: 25px 10px auto auto;
+    transform:skewY(-13deg);
+    transform-origin: 0% 0%;
 }
 
 
