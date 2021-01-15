@@ -24,16 +24,6 @@
     animation-duration: 3s;
 }
 
-.fadeInTopLeft{
-    animation: fadeInTopLeft;
-    animation-duration: 3s;
-}
-
-.fadeInTopRight{
-    animation: fadeInTopRight;
-    animation-duration: 1s;
-}
-
 .rotateInUpRight{
     animation: rotateInUpRight;
     animation-duration: 3s;
