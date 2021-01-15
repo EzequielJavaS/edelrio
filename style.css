@@ -16,6 +16,9 @@ html {
     padding-top:80px; /*Para que no quede debajo de header*/
 
 }
+.contac{
+    width: 60px;
+}
 
 .header{
 	position: fixed;
