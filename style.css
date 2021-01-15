@@ -31,6 +31,8 @@ html {
 .name{
     box-sizing: border-box;
     padding: 15px;
+    width:  50%;
+
 }
 
 
