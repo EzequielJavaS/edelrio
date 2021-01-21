@@ -30,11 +30,15 @@ html {
     justify-content: space-between;
     z-index:999;
 }
+.logoLink{
+    width: 50%;
+    cursor: pointer;
+}
 
 .name{
     box-sizing: border-box;
-    padding: 8px 0 8px 15px;
-    width:  50%;
+    padding: 10px 0 2px 15px;
+    width:  100%;
 
 }
 .clicContact{

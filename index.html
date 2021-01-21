@@ -20,7 +20,9 @@
 <body>
     <div class="container">
         <header class="header">
-            <img class="name" src="./img/Ezequiel-logo.png" alt="Ezequiel del Río">
+            <a class="logoLink" href="#">
+                <img class="name" src="./img/Ezequiel-logo.png" alt="Ezequiel del Río">
+            </a>
 
             <div class="clicContact">
                 <div><p><i class=" boc far fa-comments"></i></p></div>
@@ -38,8 +40,8 @@
                 <ul>
                   <li><a href="#sobreMi" onclick="toggleMenu()"><i class="far fa-address-card"></i>  Sobre mí</a></li>
                   <li><a href="#trabajos" onclick="toggleMenu()"><i class="fas fa-briefcase"></i>  Trabajos</a></li>
-                  <li><a href="#" onclick="toggleMenu()"><i class="far fa-building"></i>  Empresas</a></li>
-                  <li><a href="#" onclick="toggleMenu()"><i class="fas fa-tty"></i>  Contacto</a></li>
+                  <li><a href="#empresas" onclick="toggleMenu()"><i class="far fa-building"></i>  Empresas</a></li>
+                  <li><a href="#contacto" onclick="toggleMenu()"><i class="fas fa-tty"></i>  Contacto</a></li>
                 </ul>
             </nav>         
         </header>
@@ -88,12 +90,6 @@
         </div>
         <h3> Trabajos</h3>
         <div class="containerCard">
-
-
-
-
-
-
             <div class="card">
                 <h4>Triaje Start</h4>
                 <img src="./img/probando.jpg" alt="Triaje Start">
@@ -105,9 +101,8 @@
                 <p>HTML, CSS, Bootstrap, JavaScript, Make Human, Blender.  </p>
                 <a href="#">Ver Vídeo</a>
             </div>
-
             <div class="card">
-                <h4>Triaje Start</h4>
+                <h4>Calendar app</h4>
                 <img src="./img/probando.jpg" alt="Triaje Start">
                 <h5>Información</h5>
                 <p>Lorem ipsum dolor sit amet, consect adipisicing elit. Similique, magni?</p>
@@ -119,7 +114,7 @@
             </div>
 
             <div class="card">
-                <h4>Triaje Start</h4>
+                <h4>Blackjack</h4>
                 <img src="./img/probando.jpg" alt="Triaje Start">
                 <h5>Información</h5>
                 <p>Lorem ipsum dolor sit amet, consect adipisicing elit. Similique, magni?</p>
@@ -129,8 +124,23 @@
                 <p>Lorem ipsum dolor sit amet, consect adipisicing elit. Similique, magni?</p>
                 <a href="#">Ver Vídeo</a>
             </div>
-
         </div>
+    </scroll-page>
+
+    <scroll-page id="empresas">
+        <div class="spaceWhite">
+            <img class="fotoSpace" src="./img/img-endFooter.svg" alt="Ezequiel del Río"> 
+        </div>
+        <h3> Empresas</h3>
+        <p class="read_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima atque, in cum quam quidem fugit facilis totam suscipit laborum reiciendis sint id incidunt fugiat tenetur quasi aliquid natus aspernatur labore delectus commodi odit sit. Eos expedita earum sequi ratione ipsam neque, voluptatibus nihil sint? Earum laborum et quibusdam! Deleniti dolore ut corrupti omnis voluptates officia ea placeat accusantium recusandae sequi officiis ex voluptatem nesciunt, minima labore quidem nobis ad reprehenderit neque, reiciendis iure nemo ipsam atque? Saepe illo veritatis tenetur labore impedit est aperiam natus libero aliquam, assumenda sint earum ducimus dignissimos sed vel repellendus eveniet asperiores suscipit quae. Natus!</p>
+    </scroll-page>
+
+    <scroll-page id="contacto">
+        <div class="spaceWhite">
+            <img class="fotoSpace" src="./img/img-endFooter.svg" alt="Ezequiel del Río"> 
+        </div>
+        <h3>Contacto</h3>
+        <p class="read_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima atque, in cum quam quidem fugit facilis totam suscipit laborum reiciendis sint id incidunt fugiat tenetur quasi aliquid natus aspernatur labore delectus commodi odit sit. Eos expedita earum sequi ratione ipsam neque, voluptatibus nihil sint? Earum laborum et quibusdam! Deleniti dolore ut corrupti omnis voluptates officia ea placeat accusantium recusandae sequi officiis ex voluptatem nesciunt, minima labore quidem nobis ad reprehenderit neque, reiciendis iure nemo ipsam atque? Saepe illo veritatis tenetur labore impedit est aperiam natus libero aliquam, assumenda sint earum ducimus dignissimos sed vel repellendus eveniet asperiores suscipit quae. Natus!</p>
     </scroll-page>
     
     <script src="./index.js"></script>
