@@ -14,11 +14,6 @@
     animation-duration: 3s;
 }
 
-.bounceInRight{
-    animation: bounceInRight;
-    animation-duration: 3s;
-}
-
 .bounceInUp2{
     animation: bounceInUp;
     animation-duration: 2s;
