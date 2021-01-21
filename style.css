@@ -45,6 +45,7 @@ html {
     margin-left: 15px;
     display: flex;
     cursor: pointer;
+    text-decoration: none;
 }
 .boc{
     color:yellow;
