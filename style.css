@@ -4,17 +4,20 @@
     margin: 0px;
     padding: 0px;
 }
+
 html {
     scroll-behavior: smooth;
     -webkit-scroll-behavior: smooth;
     -moz-scroll-behavior: smooth;
     -ms-scroll-behavior: smooth;
+
+   
+
 }
 .container{
     width: 100%;
     background-color: black;
     padding-top:80px; /*Para que no quede debajo de header*/
-
 }
 .contac{
     width: 60px;
