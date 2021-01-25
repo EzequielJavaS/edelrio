@@ -20,7 +20,6 @@
     text-align: center;
     transition: all 0.25s;
     padding-bottom: 15px;
-    cursor: pointer;
 }
 
 .containerCard .card:hover{
