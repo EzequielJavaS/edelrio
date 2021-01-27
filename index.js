@@ -1,5 +1,4 @@
 
-
 // selector
 let menu = document.querySelector(".hamburger");
 let menuppal = document.querySelector(".menuppal");
@@ -14,7 +13,4 @@ const toggleMenu = (event) =>{
 
 // event
 menu.addEventListener('click', toggleMenu, false);
-
-
-
 
