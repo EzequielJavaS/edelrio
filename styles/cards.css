@@ -107,13 +107,6 @@
     margin-right: 7px;
 }
 
-.containerCard .cardEmpresa a{
-    font-family: 'Raleway', sans-serif;
-    font-size:16px;
-    font-weight: 500;
-    text-decoration: none;
-}
-
 .imgPastry{
     width: 185px;
     height: 63px;
@@ -133,6 +126,35 @@
 .imgUniv{
     width: 276px;
     height: 85px;
+}
+
+@media only screen and (min-width:931px) {
+    .containerCard .card h4{
+        font-size: 35px;
+    }
+
+    .containerCard .card h5{
+        font-size:24px;
+        font-weight: 700;
+        line-height: 45px;
+    }
+
+    .containerCard .card p{
+        font-size:17px;
+    }
+
+    .containerCard .card a{
+        font-family: 'Raleway', sans-serif;
+        font-size:17px;
+        font-weight: 500;
+        text-decoration: none;
+    }
+
+    .containerCard .cardEmpresa p{
+        font-size:17px;
+    }
+
+
 }
 
 

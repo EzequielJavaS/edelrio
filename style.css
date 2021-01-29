@@ -12,13 +12,11 @@ html {
     -moz-scroll-behavior: smooth;
     -ms-scroll-behavior: smooth;
 
-   
-
 }
 .container{
-    width: 100%;
-    background-color: black;
-    padding-top:80px; /*Para que no quede debajo de header*/
+    /* width: 100%;*/
+    background-color: black; 
+    padding-top:54px; /*Para que no quede debajo de header*/
 }
 /* .contac{
     width: 60px;
@@ -28,14 +26,14 @@ html {
 	position: fixed;
     top: 0;
     background-color: black;
-    height: auto;
+    height: 54px;
     width:  100%;
     display: flex;
     justify-content: space-between;
     z-index:999;
 }
 .logoLink{
-    width: 50%;
+    width: 180px;
     cursor: pointer;
 }
 
@@ -77,7 +75,6 @@ html {
 } 
 
 .my_rol{
-    background-color: black;
     color: yellow;
     font-family: 'Oswald', sans-serif;
     font-style: normal;
@@ -220,12 +217,6 @@ h3{
     background: var(--github);
 }
 
-
-
-
-
-
-
 /* small mobile */
 @media only screen and (max-width:348px) {
     .my_rol{
@@ -235,11 +226,20 @@ h3{
         width: 33px;
         height: 33px;
     }
+    .logoLink{
+        width: 150px;
+    }
+    .container{
+        background-color: black;
+    }
 }
 /* medium mobile */
 @media only screen and (min-width:349px) and (max-width:384px) {
     .present_text{
         font-size:20px;
+    }
+    .logoLink{
+        width: 165px;
     }
 }
 /* big mobile */
@@ -250,7 +250,10 @@ h3{
 }
 
 /*Escritoio*/
-@media only screen and (min-width:414px) {
+@media only screen and (min-width:931px) {
+    .header{
+        height: 95px;
+    }
     .logoLink{
         width: 20%;
     }
@@ -287,7 +290,60 @@ h3{
     .clicContactDiv{
         display: none;
     }
+    .container{
+        padding-top:95px; /*Para que no quede debajo de header*/
 
+    }
+    .second_header{
+        max-width: 1200px;
+        /* height: auto; */
+        margin: auto;
+    }
+
+    .my_rol{
+        font-size: 40px;
+    }
+
+    .icons{
+        max-width: 1200px;
+        /* height: auto; */
+        margin: auto auto 20px auto;
+        /* transform:skewY(-13deg); */
+        transform-origin: 80% 0%;
+    }
+
+    .imgOK{
+        height:65px;
+        width: 65px;
+    }
+
+    .present_header{
+        max-width: 1200px;
+        margin: 0 auto 0 auto;
+        transform-origin: 80% 0%;
+    }
+    
+    .present_text { 
+        font-size:30px;
+    }
+
+    .foto{
+        margin-top: 150px;
+    }
+
+    h3{
+        font-size:30px;
+        position: relative;
+        text-align: center;
+        margin: 30px auto;
+    }
+
+    .read_text {
+        max-width: 1200px;
+        margin: auto;
+        font-size:25px;
+        line-height: 45px;
+    }
 }
 
 
