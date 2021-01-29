@@ -43,7 +43,9 @@ html {
     box-sizing: border-box;
     padding: 10px 0 2px 15px;
     width:  100%;
-
+}
+.menuDesck{
+    display: none;
 }
 .clicContact{
     margin-left: 15px;
@@ -246,6 +248,51 @@ h3{
         font-size:22px;
     }
 }
+
+/*Escritoio*/
+@media only screen and (min-width:414px) {
+    .logoLink{
+        width: 20%;
+    }
+
+    .hamburger{
+        display: none;
+    }
+
+    .menuDesck{
+        display: block;
+        margin-right: 20px;
+    }
+
+    .menuDesck ul li{
+        display: inline-block;
+        margin: 25px 2vw;
+        
+    }
+  
+    .menuDesck ul li a{
+        color: white;
+        font-family: 'Oswald', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        letter-spacing: 2.5px;
+        text-decoration: none;
+        
+  
+    }
+    .menuppal{
+        display: none;
+    }
+    .clicContactDiv{
+        display: none;
+    }
+
+}
+
+
+
+
 
     
 
