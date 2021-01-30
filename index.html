@@ -100,15 +100,15 @@
     
     <scroll-page id="sobreMi">
         <div class="spaceBlack"></div>
-        <h3>Sobre mí</h3>
-        <p class="read_text">Me titulé como <b style="color: black">técnico superior en desarrollo de aplicaciones</b> y desde entonces, no he dejado de formarme en las tecnologías relacionadas con el <b style="color: black">desarrollo en el ecosistema web.</b></p><br><br>
-        <p class="read_text">He enfocado mi interés tanto en <b style="color: black">frontend</b> como en <b style="color: black">backend</b>. Me gusta participar en la solución integra del reto planteado. Disfruto de la investigación y la adquisición de nuevos conocimientos con la finalidad de crear herramientas que solucionen las necesidades del usuario.</p>
+        <h3 class="wow fadeInRight">Sobre mí</h3>
+        <p class="read_text wow fadeInLeft">Me titulé como <b style="color: black">técnico superior en desarrollo de aplicaciones</b> y desde entonces, no he dejado de formarme en las tecnologías relacionadas con el <b style="color: black">desarrollo en el ecosistema web.</b></p><br><br>
+        <p class="read_text wow fadeInLeft">He enfocado mi interés tanto en <b style="color: black">frontend</b> como en <b style="color: black">backend</b>. Me gusta participar en la solución integra del reto planteado. Disfruto de la investigación y la adquisición de nuevos conocimientos con la finalidad de crear herramientas que solucionen las necesidades del usuario.</p>
     </scroll-page>
     <scroll-page id="trabajos">
         <div class="spaceWhite">
             <!-- <img class="fotoSpace" src="./img/img-endFooter.svg" alt="Ezequiel del Río">  -->
         </div>
-        <h3> Proyectos</h3>
+        <h3 class="wow fadeInRight"> Proyectos</h3>
         <div class="containerCard">
             <div class="card">
                 <div>
@@ -132,7 +132,7 @@
                 <a href=" https://calendario-backend.herokuapp.com">
                     <img class="imgTrab" src="./img/calendarApp.png" alt="Calendar App">
                 </a>
-                <h5>Información</h5>
+                <h5 >Información</h5>
                 <p>Calendar app es una agenda donde diferentes usuarios pueden guardar información.</p>
                 <h5>Desafío</h5>
                 <p>Este es un ejercicio realizado para el aprendizaje del stack MERN.<br> MERN es un conjunto de tecnologías utilizados para el desarrollo web de aplicaciones que consta de MongoDB, React JS, Express JS y Node JS como sus componentes. Se ha utilizado Redux.<br>Se ha desarrollado el Frontend y un sólido Backend desplegado en Heroku: encriptación de contraseñas, gestión de token (JWT), gestión de usuarios, CRUD de los eventos<br>También se han hecho las pruebas unitarias e integración con Enzyme y Jest </p> 
@@ -178,7 +178,7 @@
         <div class="spaceWhite">
             <!-- <img class="fotoSpace" src="./img/img-endFooter.svg" alt="Ezequiel del Río">  -->
         </div>
-        <h3> Empresas</h3>
+        <h3 class="wow fadeInRight"> Empresas</h3>
         <div class="containerCard">
             <div class="cardEmpresa">
                 <img class="imgUniv" src="./img/univerLogo.png" alt="Universitat de Barcelona">
@@ -200,7 +200,7 @@
         <div class="spaceWhite">
             <!-- <img class="fotoSpace" src="./img/img-endFooter.svg" alt="Ezequiel del Río">  -->
         </div>
-        <h3>Contacto</h3>
+        <h3 class="wow fadeInRight">Contacto</h3>
         <div class="containerContact">
             <img class="imgContact" src="./img/contact.svg" alt="Contact">
 
@@ -219,5 +219,7 @@
     </scroll-page>
     
     <script src="./index.js"></script>
+    <script src="./js/wow.min.js"></script>
+    <script>new WOW().init();</script>
 </body>
 </html>

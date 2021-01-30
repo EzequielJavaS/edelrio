@@ -24,6 +24,17 @@
     animation-duration: 3s;
 }
 
+.fadeInLeft{
+    animation: fadeInLeft;
+    animation-duration: 2s;
+}
+
+.fadeInRight{
+    animation: fadeInRight;
+    animation-duration: 2s;
+}
+
+
 
 
 
