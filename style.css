@@ -179,6 +179,7 @@ h3{
     height: auto;
     align-items: center;
     justify-content: center;
+    margin-bottom: 150px;
 }
 
 .containerRedes ul li{
@@ -317,6 +318,14 @@ h3{
         width: 65px;
     }
 
+    .spaceBlack{
+        height: 70px;
+    }
+
+    .spaceWhite{
+        height: 70px;
+    }
+
     .present_header{
         max-width: 1200px;
         margin: 0 auto 0 auto;
@@ -325,6 +334,8 @@ h3{
     
     .present_text { 
         font-size:30px;
+        padding: 15px 25px;
+
     }
 
     .foto{
