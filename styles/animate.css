@@ -29,12 +29,11 @@
     animation-duration: 2s;
 }
 
-@media only screen and (min-width:931px) {
-    .fadeInRight{
-        animation: fadeInRight;
-        animation-duration: 2s;
-    }
+.fadeInRight{
+    animation: fadeInRight;
+    animation-duration: 2s;
 }
+
 
 
 
