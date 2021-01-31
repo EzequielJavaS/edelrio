@@ -1,3 +1,4 @@
+/*CARDS*/
 
 .containerCard{
     width: 100%;
@@ -153,8 +154,6 @@
     .containerCard .cardEmpresa p{
         font-size:17px;
     }
-
-
 }
 
 
