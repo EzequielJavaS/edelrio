@@ -14,14 +14,14 @@ html {
 
 }
 .container{
-    background-color: black; 
+    background-color: #111111; 
     padding-top:54px; /*Para que no quede debajo de header*/
 }
 
 .header{
 	position: fixed;
     top: 0;
-    background-color: black;
+    background-color:#111111; 
     height: 54px;
     width:  100%;
     display: flex;
@@ -48,14 +48,14 @@ html {
     text-decoration: none;
 }
 .boc{
-    color:yellow;
+    color:#f3f3bf;
     margin: 20px auto auto 5px;
 }
 .contact{
     font-family: 'Oswald', sans-serif;
     font-size: 15px;
     font-weight:500;
-    color:yellow;
+    color:#f3f3bf;;
     width: 60px;
     letter-spacing: 2.5px;
     margin: 20px auto auto 5px;
@@ -65,9 +65,9 @@ html {
 
 
 .second_header{
-    background-color: black;
+    background-color:#111111; 
     width: 100%;
-    height: 150px;
+    height: auto;
 } 
 
 .my_rol{
@@ -76,7 +76,8 @@ html {
     font-style: normal;
     font-weight: 200;
     font-size: 20px;
-    line-height: 5em;
+    margin: 20px 0 20px 0;
+    /* line-height: 5em; */
     padding-left: 10px;
     padding-right: 10px;
     text-align: center;
@@ -85,19 +86,20 @@ html {
 .icons{
     display: flex;
     justify-content: space-around;
-    margin: 0px 5px 15px 5px;
-    transform:skewY(-13deg);
-    transform-origin: 0% 0%;
+    margin: 0px 5px 100px 5px;
+    /* transform:skewY(-7deg);
+    transform-origin: 0% 0%; */
 }
 
-.imgOK{
-    transform:skewY(13deg);
+/* .imgOK{
+    transform:skewY(7deg);
     transform-origin: 0% 0%;
-}
+} */
+
 .present_header{
     transform:skewY(-13deg);
     transform-origin: 0% 0%;
-    background-color: #ffffff;
+    background-color: white;
 }
 
 .present_text { 
@@ -126,7 +128,7 @@ html {
 .spaceBlack{
     width: 100%;
     height: 55px;
-    background-color: black;
+    background-color: #111111; 
 }
 
 .spaceWhite{
@@ -140,7 +142,7 @@ h3{
     font-size:21px;
     font-weight: 700;
     text-decoration: underline; 
-    color: black;
+    columns: #222222;
     position: relative;
     text-align:justify;
     padding: 5px 30px 5px 20px;
@@ -241,11 +243,6 @@ h3{
     }
 }
 
-
-
-
-
-
 /* small mobile */
 @media only screen and (max-width:348px) {
     .my_rol{
@@ -258,9 +255,9 @@ h3{
     .logoLink{
         width: 150px;
     }
-    .container{
-        background-color: black;
-    }
+    /* .container{
+        background-color: #222222;
+    } */
 }
 /* medium mobile */
 @media only screen and (min-width:349px) and (max-width:384px) {
@@ -281,14 +278,15 @@ h3{
 /*Tablet*/
 @media only screen and (min-width:415px) and (max-width:931px) {
     .icons{
-        margin: 70px 5px 15px 5px;
+        margin: 0px 5px 200px 5px;
     }
 
 }
 
 
-/*Escritoio*/
-@media only screen and (min-width:931px) {
+/*Desck*/
+
+@media only screen and (min-width:931px){
     .header{
         height: 95px;
     }
@@ -336,45 +334,111 @@ h3{
         max-width: 1200px;
         /* height: auto; */
         margin: auto;
+        
     }
 
     .my_rol{
+        margin-top: 100px;
         font-size: 40px;
+    }
+
+    @media (min-height:900px) and (max-height:1000px) {
+        .my_rol{
+            margin-top: 40px;
+        } 
+    }
+
+    @media (min-height:760px) and (max-height:899px) {
+
+        .my_rol{
+            font-size: 35px;
+            margin: 20px 0 20px 0;
+        }
+
+
+        .present_header{
+            max-width: 1200px;
+            height: 170px;
+            margin: 0 auto 0 auto;
+            transform-origin: 80% 0%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding: 20px 80px;
+        }
+        
+        
+        .present_text { 
+            font-family: 'Raleway', sans-serif;
+            font-size:27px;
+            font-weight: 300; 
+            position: relative;
+            text-align:justify;
+            padding: 5px 12px 5px 12px;
+        }
+        
+        .foto{
+            width: 178px;
+            height: 178px;
+            display: block;
+            margin: auto;
+            filter: drop-shadow(0px 0px 15px #ffffff);
+        }
+        
+        .fotoSpace{
+            display: block;
+            margin: 0 auto 0;
+            height: 50px;
+        }
+
     }
 
     .icons{
         max-width: 1200px;
         /* height: auto; */
         margin: auto auto 20px auto;
-        /* transform:skewY(-13deg); */
-        transform-origin: 80% 0%;
+        /* transform:skewY(-13deg);
+        transform-origin: 80% 0%; */
+        justify-content: center;
+
     }
 
     .imgOK{
         height:65px;
         width: 65px;
+        margin-left: 15px;
     }
 
     .spaceBlack{
-        height: 70px;
+        height: 90px;
     }
 
     .spaceWhite{
         height: 70px;
     }
 
-    .present_header{
-        max-width: 1200px;
-        margin: 0 auto 0 auto;
-        transform-origin: 80% 0%;
+    
+
+    @media (min-height:899px) {
+        .present_header{
+            max-width: 1200px;
+            height: 300px;
+            margin: 0 auto 0 auto;
+            transform-origin: 80% 0%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding: 30px 80px;
+        }
+
+        .present_text { 
+            font-size:36px;
+            /* padding: 50px 80px; */
+    
+        }
+
     }
     
-    .present_text { 
-        font-size:30px;
-        padding: 15px 25px;
-
-    }
-
     .foto{
         margin-top: 150px;
     }
@@ -532,12 +596,12 @@ h3{
 
 .fadeInLeft{
     animation: fadeInLeft;
-    animation-duration: 2s;
+    animation-duration: 4s;
 }
 
 .fadeInRight{
     animation: fadeInRight;
-    animation-duration: 2s;
+    animation-duration: 4s;
 }
 
 /*CARDS*/
@@ -559,7 +623,7 @@ h3{
     flex-direction: column;
     justify-content: space-between;
     border-radius: 8px;
-    background-color: rgb(243, 243, 191);
+    background-color: #f3f3bf;
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
     overflow: hidden;
     margin: 20px;
@@ -591,7 +655,7 @@ h3{
     font-size:16px;
     font-weight: 700;
     line-height: 25px;
-    color: black;
+    color: #222222;
     position: relative;
     text-align: left;
     padding: 5px 30px 1px 15px;
